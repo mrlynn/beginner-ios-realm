@@ -79,10 +79,10 @@ class ContactItem {
 
 8. Create an instance of ContactItem.
    1. Place the following inside the ViewController after the IBOutlet
-```
-   var person = ContactItem(name: "Mike", telephone: "214-123-1233", id: "")
-   var people = [ContactItem]()
-```
+      ```
+         var person = ContactItem(name: "Mike", telephone: "214-123-1233", id: "")
+         var people = [ContactItem]()
+      ```
    1. Then append the person instance to people - place the following inside the ViewDidLoad Method.
    ```
         people.append(person)
