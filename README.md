@@ -83,13 +83,14 @@ class ContactItem {
    var person = ContactItem(name: "Mike", telephone: "214-123-1233", id: "")
    var people = [ContactItem]()
 ```
-
-   2. Then append the person instance to people inside the ViewDidLoad Method.
+   2. Then append the person instance to people - place the following inside the ViewDidLoad Method.
+   ```
         people.append(person)
+   ```
 
 9. Run the app and you should see one person in the table.
 
-## Part two: Enter Realm
+## Part 2: Enter Realm
 
 Convert this to a Realm App. Because this will take a view minutes to build after importing we will open up a pre-built version ContactRealm-after-realm
 
