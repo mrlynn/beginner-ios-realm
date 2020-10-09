@@ -1,4 +1,5 @@
-# beginner-ios-realm
+# Getting Started with iOS Application Development with Swift and Realm
+
 Assets and overview for Twitch.tv/mongodb session from Oct 9, 2020
 
 In this session, we'll walk through the basics of creating an iOS app with Xcode, Swift and Realm. 
@@ -245,3 +246,5 @@ Now that our app is leveraging realm we need a way to add Contacts to the app. W
    }
    ```
 9. Build, and run the app. You should now be able to add contacts to the table, thereby adding them to the realm.
+
+Visit the [MongoDB Community](https://community.mongodb.com) if you have questions and be sure to check out [The MongoDB Podcast](https://www.mongodb.com/podcast)
