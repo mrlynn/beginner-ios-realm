@@ -83,7 +83,7 @@ class ContactItem {
    var person = ContactItem(name: "Mike", telephone: "214-123-1233", id: "")
    var people = [ContactItem]()
 ```
-   2. Then append the person instance to people - place the following inside the ViewDidLoad Method.
+   1. Then append the person instance to people - place the following inside the ViewDidLoad Method.
    ```
         people.append(person)
    ```
