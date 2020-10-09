@@ -210,7 +210,6 @@ Now that our app is leveraging realm we need a way to add Contacts to the app. W
 6. Open the Assistant View so that you can see the Main Storyboard as well as the `ViewController.swift` file.
 7. Right-click and drag from the + image in the navigation bar and drop it in the `ViewController` class below the closing brace of the `viewDidLoad()` function. Select `Action` and name it `addButtonTapped`. This function will be called when a user interacts with the plus button to add a contact.
 8. Add the following code to the function you just created. This will create a dialog box and prompt the user for the contact details to be added.
-
    ```
    @IBAction func addButtonTapped(_ sender: Any) {
 
@@ -244,6 +243,5 @@ Now that our app is leveraging realm we need a way to add Contacts to the app. W
       // Show the dialog.
       self.present(alertController, animated: true)
    }
-```
-
+   ```
 9. Build, and run the app. You should now be able to add contacts to the table, thereby adding them to the realm.
